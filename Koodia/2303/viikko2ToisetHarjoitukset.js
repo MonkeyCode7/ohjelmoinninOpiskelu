@@ -68,16 +68,16 @@ function summaKeskiarvo()
 //Tehtävä 5//
 function numberText()
 {
-  var luku1 = parseInt(document.getElementById('luku1').value);
-  var lause += luku + "x 1 = " + luku * 1;
-  var lause += luku + "x 2 = " + luku * 2;
-  var lause += luku + "x 3 = " + luku * 2;
-  var lause += luku + "x 4 = " + luku * 2;
-  var lause += luku + "x 5 = " + luku * 2;
-  var lause += luku + "x 6 = " + luku * 2;
-  var lause += luku + "x 7 = " + luku * 2;
-  var lause += luku + "x 8 = " + luku * 2;
-  var lause += luku + "x 9 = " + luku * 2;
-  var lause += luku + "x 10 = " + luku * 2;
-  document.getElementById('numeroTeksti').innerHTML =
+  let luku1 = parseInt(document.getElementById('luku6').value);
+  let lause = luku1 + " x 1 = " + luku1 * 1 + "</br>";
+      lause += luku1 + " x 2 = " + luku1 * 2 + "</br>";
+      lause += luku1 + " x 3 = " + luku1 * 3 + "</br>";
+      lause += luku1 + " x 4 = " + luku1 * 4 + "</br>";
+      lause += luku1 + " x 5 = " + luku1 * 5 + "</br>";
+      lause += luku1 + " x 6 = " + luku1 * 6 + "</br>";
+      lause += luku1 + " x 7 = " + luku1 * 7 + "</br>";
+      lause += luku1 + " x 8 = " + luku1 * 8 + "</br>";
+      lause += luku1 + " x 9 = " + luku1 * 9 + "</br>";
+      lause += luku1 + " x 10 = " + luku1 * 10 + "</br>";
+  document.getElementById('numeroTeksti').innerHTML = lause;
 }
